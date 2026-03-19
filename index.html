@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pilih In - Rekomendasi Film</title>
-<link rel="stylesheet" href="/assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih In - Rekomendasi Film</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <!-- awal navbar -->
     <nav class="navbar">
-        <a href="#" class="navbar-logo"></a>
+        <a href="#" class="navbar-logo">pilih.<span>in</span></a>
         <div class="navbar-nav">
             <a href="#">Home</a>
             <a href="pages/fitur_lainnya/filter.html">Filter</a>
             <a href="pages/fitur_lainnya/genres_allFilms.html">Genres</a>
             <a href="pages/fitur_lainnya/about_us.html">About us</a>
         </div>
-        <div class="navbar-extra"></div>
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="bookmark"><i data-feather="bookmark"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
     </nav>
-    <h1>Belajar membuat website rekomendasi Film</h1>
-
+    <!-- akhir navbar -->
+    
+    <!-- javascript -->
+    <script src="assets/js/script.js"></script>
     <!-- icons -->
     <script>
         feather.replace();
