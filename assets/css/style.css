@@ -97,7 +97,7 @@ body {
     min-height: 105vh;
     display: flex;
     align-items: center;
-    background-image: url(../img/background_hero.jpg);
+    background-image: url(/assets/img/background_hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
