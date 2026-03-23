@@ -92,6 +92,95 @@ body {
     display: none;
 }
 
+#input {
+    display: inline-block;
+    color: var(--text-main);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#input:hover {
+    display: inline-block;
+    color: var(--primary);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* main */
+body {
+    background-color: var(--bg-main);
+}
+
+.bomb-jakarta::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/13_bom_di_jakarta.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.bomb-jakarta {
+    height: 100vh;
+    background-color: rgba(11, 15, 12, 0.5);
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bomb-jakarta::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 250%;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(
+        0deg,
+        rgb(11, 15, 12, 1) 8%,
+        rgba(255, 255, 255, 0) 50%
+    );
+}
+
+.bomb-jakarta .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
+}
+
+.bomb-jakarta img {
+    width: 25%;
+    height: 25%;
+    border: 0.2rem solid var(--bg-main);
+    border-radius: 1rem;
+    flex: 0 0 255px;
+}
+
+.bomb-jakarta .content .deskripsi {
+    padding: 1rem;
+}
+
+.div-akhir {
+    padding: 3rem 3rem;
+}
+
+.div-akhir .back {
+    color: var(--bg-main);
+    background-color: var(--text-main);
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.div-akhir .back:hover {
+    color: var(--primary);
+}
+
 /* media queries */
 /* laptop */
 @media (max-width: 1366px) {

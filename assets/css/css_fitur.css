@@ -1,12 +1,12 @@
-:root{
+:root {
     /* color */
-    --primary:#7DFFA0;
-    --primary-hover:#4EF58A;
-    --bg-main:#0B0F0C;
-    --bg-section:#121815;
-    --text-main:#E8EEE9;
-    --text-secondary:#B9C3BD;
-    --border:#27302B;
+    --primary: #7dffa0;
+    --primary-hover: #4ef58a;
+    --bg-main: #0b0f0c;
+    --bg-section: #121815;
+    --text-main: #e8eee9;
+    --text-secondary: #b9c3bd;
+    --border: #27302b;
 }
 
 * {
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: var(--bg-main);
     color: var(--text-main);
 }
@@ -46,7 +46,7 @@ body {
 .navbar .navbar-logo {
     font-size: 2rem;
     font-weight: 700;
-    color: #D3D0D8;
+    color: #d3d0d8;
 }
 
 .navbar .navbar-logo span {
@@ -56,7 +56,7 @@ body {
 
 .navbar .navbar-nav a {
     position: relative;
-    color: #D3D0D8;
+    color: #d3d0d8;
     display: inline-block;
     font-size: 1.3rem;
     margin: 0 1rem;
@@ -67,7 +67,7 @@ body {
 }
 
 .navbar .navbar-nav a::after {
-    content: '';
+    content: "";
     display: block;
     padding-bottom: 0rem;
     border-bottom: 0.1rem solid var(--primary);
@@ -80,7 +80,7 @@ body {
 }
 
 .navbar .navbar-extra a {
-    color: #D3D0D8;
+    color: #d3d0d8;
     margin: 0 0 0.5rem;
 }
 
@@ -90,6 +90,18 @@ body {
 
 #hamburger-menu {
     display: none;
+}
+
+#input {
+    display: inline-block;
+    color: var(--text-main);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#input:hover {
+    display: inline-block;
+    color: var(--primary);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 /* media queries */
@@ -111,13 +123,13 @@ body {
         background-color: rgba(255, 255, 255, 0);
     }
 
-        #hamburger-menu:hover {
+    #hamburger-menu:hover {
         display: inline-block;
         color: var(--primary);
         background-color: rgba(255, 255, 255, 0);
     }
 
-    .navbar .navbar-nav{
+    .navbar .navbar-nav {
         position: absolute;
         top: 100%;
         right: -100%;
@@ -127,7 +139,7 @@ body {
         transition: 0.3s;
     }
 
-    .navbar .navbar-nav.active{
+    .navbar .navbar-nav.active {
         right: 0;
     }
 

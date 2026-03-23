@@ -12,3 +12,8 @@ document.addEventListener('click', function (e) {
         navbarNav.classList.remove('active')
     }
 })
+
+// fitur search
+document.getElementById("input").addEventListener("click", ()=>{
+    let data = prompt("Cari Judul:");
+});
