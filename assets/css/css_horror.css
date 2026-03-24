@@ -106,7 +106,6 @@ body {
 }
 
 /* main */
-
 body::after {
     content: "";
     display: block;
@@ -136,22 +135,142 @@ body::after {
     z-index: -1;
 }
 
-.pengabdi_setan_2::before {
+.dusun_mayit::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 90%;
-    background-image: url(../img/pengabdi_setan_2.jpg);
+    background-image: url(../img/dusun_mayit.jpg);
     background-size: cover;
     background-position-y: -18rem;
     filter: blur(8px);
     z-index: -1;
 }
 
+.ivanna::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/ivanna.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.makmum_2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/makmum_2.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.pamali_dusun_pocong::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/pamali_dusun_pocong.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.badarawuhi_di_desa_penari::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/badarawuhi_di_desa_penari.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.perempuan_tanah_jahannam::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/perempuan_tanah_jahanam.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.santet_segoro_pitu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/santet_segoro_pitu.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.satu_suro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/satu_suro.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.waktu_maghrib::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/waktu_magrib.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.badarawuhi_di_desa_penari,
+.dusun_mayit,
+.ivanna,
+.makmum_2,
+.pamali_dusun_pocong,
 .pengabdi_setan_2,
-.architecture-of-love {
+.perempuan_tanah_jahannam,
+.santet_segoro_pitu,
+.satu_suro,
+.waktu_maghrib {
     height: 100vh;
     background-color: rgba(11, 15, 12, 0.5);
     display: flex;
@@ -161,15 +280,31 @@ body::after {
     background-position: center;
 }
 
+.badarawuhi_di_desa_penari .content,
+.dusun_mayit .content,
+.ivanna .content,
+.makmum_2 .content,
+.pamali_dusun_pocong .content,
 .pengabdi_setan_2 .content,
-.architecture-of-love .content {
+.perempuan_tanah_jahannam .content,
+.santet_segoro_pitu .content,
+.satu_suro .content,
+.waktu_maghrib .content {
     display: flex;
     justify-content: space-between;
     padding: 10rem;
 }
 
+.badarawuhi_di_desa_penari img,
+.dusun_mayit img,
+.ivanna img,
+.makmum_2 img,
+.pamali_dusun_pocong img,
 .pengabdi_setan_2 img,
-.architecture-of-love img {
+.perempuan_tanah_jahannam img,
+.santet_segoro_pitu img,
+.satu_suro img,
+.waktu_maghrib img {
     width: 25%;
     height: 25%;
     border: 0.2rem solid var(--bg-main);
@@ -177,8 +312,16 @@ body::after {
     flex: 0 0 255px;
 }
 
+.badarawuhi_di_desa_penari .content .deskripsi,
+.dusun_mayit .content .deskripsi,
+.ivanna .content .deskripsi,
+.makmum_2 .content .deskripsi,
+.pamali_dusun_pocong .content .deskripsi,
 .pengabdi_setan_2 .content .deskripsi,
-.architecture-of-love .content .deskripsi {
+.perempuan_tanah_jahannam .content .deskripsi,
+.santet_segoro_pitu .content .deskripsi,
+.satu_suro .content .deskripsi,
+.waktu_maghrib .content .deskripsi {
     padding: 1rem;
 }
 
