@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.Kupu_Kupu_Kertas::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/Kupu_Kupu_Kertas.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .Komang::before {
     content: "";
     position: absolute;
@@ -206,6 +220,7 @@ body::after {
 }
 
 
+.Kupu_Kupu_Kertas,
 .Komang,
 .dilan-1990,
 .ada_apa_dengan_cinta,
@@ -222,6 +237,8 @@ body::after {
     background-position: center;
 }
 
+
+.Kupu_Kupu_Kertas .content,
 .Komang .content,
 .dilan-1990 .content,
 .ada_apa_dengan_cinta .content,
@@ -234,6 +251,7 @@ body::after {
     padding: 10rem;
 }
 
+.Kupu_Kupu_Kertas img,
 .Komang img,
 .dilan-1990 img,
 .ada_apa_dengan_cinta img,
@@ -248,6 +266,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.Kupu_Kupu_Kertas .content .deskripsi,
 .Komang .content .deskripsi,
 .dilan-1990 .content .deskripsi,
 .ada_apa_dengan_cinta .content .deskripsi,
