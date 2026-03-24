@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.sampai_nanti_hanna::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/sampai_nanti_hanna.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .Kupu_Kupu_Kertas::before {
     content: "";
     position: absolute;
@@ -219,7 +233,7 @@ body::after {
     z-index: -1;
 }
 
-
+.sampai_nanti_hanna,
 .Kupu_Kupu_Kertas,
 .Komang,
 .dilan-1990,
@@ -237,7 +251,7 @@ body::after {
     background-position: center;
 }
 
-
+.sampai_nanti_hanna .content,
 .Kupu_Kupu_Kertas .content,
 .Komang .content,
 .dilan-1990 .content,
@@ -251,6 +265,7 @@ body::after {
     padding: 10rem;
 }
 
+.sampai_nanti_hanna img,
 .Kupu_Kupu_Kertas img,
 .Komang img,
 .dilan-1990 img,
@@ -266,6 +281,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.sampai_nanti_hanna .content .deskripsi,
 .Kupu_Kupu_Kertas .content .deskripsi,
 .Komang .content .deskripsi,
 .dilan-1990 .content .deskripsi,
