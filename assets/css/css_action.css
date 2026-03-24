@@ -124,6 +124,19 @@ body::after {
     );
 }
 
+.mencuri_raden_saleh::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/mencuri_raden_saleh.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
 
 .hunter_killer::before {
     content: "";
@@ -181,6 +194,8 @@ body::after {
     z-index: -1;
 }
 
+
+.mencuri_raden_saleh,
 .hunter_killer,
 .ben_and_jody,
 .Fire_and_ash,
@@ -194,6 +209,8 @@ body::after {
     background-position: center;
 }
 
+
+.mencuri_raden_saleh .content,
 .hunter_killer .content,
 .ben_and_jody .content,
 .Fire_and_ash .content,
@@ -203,6 +220,8 @@ body::after {
     padding: 10rem;
 }
 
+
+.mencuri_raden_saleh img,
 .hunter_killer img,
 .ben_and_jody img,
 .Fire_and_ash img,
@@ -214,6 +233,8 @@ body::after {
     flex: 0 0 255px;
 }
 
+
+.mencuri_raden_saleh .content .deskripsi,
 .hunter_killer .content .deskripsi,
 .ben_and_jody .content .deskripsi,
 .Fire_and_ash .content .deskripsi,
