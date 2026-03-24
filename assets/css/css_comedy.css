@@ -121,6 +121,19 @@ body::after {
     );
 }
 
+.imperfect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/Imperfect_karier_cinta_timbangan.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
 
 .Hancock::before {
     content: "";
@@ -206,7 +219,7 @@ body::after {
     z-index: -1;
 }
 
-
+.imperfect,
 .Hancock,
 .ghost_writer,
 .gara_gara_warisan,
@@ -222,7 +235,7 @@ body::after {
     background-position: center;
 }
 
-
+.imperfect .content,
 .Hancock .content,
 .ghost_writer .content,
 .gara_gara_warisan .content,
@@ -234,6 +247,8 @@ body::after {
     padding: 10rem;
 }
 
+
+.imperfect img,
 .Hancock img,
 .ghost_writer img,
 .gara_gara_warisan img,
@@ -247,6 +262,8 @@ body::after {
     flex: 0 0 255px;
 }
 
+
+.imperfect .content .deskripsi,
 .Hancock .content .deskripsi,
 .ghost_writer .content .deskripsi,
 .gara_gara_warisan .content .deskripsi,
