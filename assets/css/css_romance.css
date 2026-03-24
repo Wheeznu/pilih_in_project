@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.Komang::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/Komang.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .dilan-1990::before {
     content: "";
     position: absolute;
@@ -191,20 +205,8 @@ body::after {
     z-index: -1;
 }
 
-.dilan-1990::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90%;
-    background-image: url(../img/dilan_1990.jpg);
-    background-size: cover;
-    background-position-y: -18rem;
-    filter: blur(8px);
-    z-index: -1;
-}
 
+.Komang,
 .dilan-1990,
 .ada_apa_dengan_cinta,
 .la_la_land,
@@ -220,6 +222,7 @@ body::after {
     background-position: center;
 }
 
+.Komang .content,
 .dilan-1990 .content,
 .ada_apa_dengan_cinta .content,
 .la_la_land .content,
@@ -231,6 +234,7 @@ body::after {
     padding: 10rem;
 }
 
+.Komang img,
 .dilan-1990 img,
 .ada_apa_dengan_cinta img,
 .la_la_land img,
@@ -244,11 +248,11 @@ body::after {
     flex: 0 0 255px;
 }
 
+.Komang .content .deskripsi,
 .dilan-1990 .content .deskripsi,
 .ada_apa_dengan_cinta .content .deskripsi,
 .la_la_land .content .deskripsi,
 .film_1_imam_2_makmum .content .deskripsi,
-.dilan-1990 .content .deskripsi,
 .architecture-of-love .content .deskripsi {
     padding: 1rem;
 }
