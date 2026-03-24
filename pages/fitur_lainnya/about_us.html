@@ -1,63 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Pilih.in</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
-
-    <script src="https://unpkg.com/feather-icons"></script>
-
-    <link rel="stylesheet" href="../../assets/css/about_style.css" />
+    <title>Tentang Kami - Pilih.in</title>
+    <!-- Gunakan font yang sama dengan project kamu -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Link ke file CSS bawaan/utama project Anda -->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    
+    <!-- Link ke file CSS khusus untuk About Us -->
+    <link rel="stylesheet" href="../../assets/css/css_about_us.css">
 </head>
 <body>
+
+    <!-- Navbar dummy untuk simulasi UI -->
     <nav class="navbar">
-        <a href="../../index.html" class="navbar-logo">Pilih.<span>in</span></a>
+        <a href="../../index.html" class="navbar-logo">Pilih<span>.in</span></a>
         <div class="navbar-nav">
             <a href="../../index.html">Home</a>
             <a href="filter.html">Filter</a>
             <a href="genres_allFilms.html">Genre</a>
-            <a href="about_us.html" class="active">Abouts</a>
+            <a href="#">Abouts</a>
+        </div>
+        <div class="navbar-extra">
+            <button id="input"><i data-feather="search"></i></button>
+            <a href="bookmark.html" id="bookmark"><i data-feather="bookmark"></i></a>
+            <button id="hamburger-menu"><i data-feather="menu"></i></button>
         </div>
     </nav>
 
-    <section class="about">
-        <div class="container">
-            <h2>Tentang <span>Kami</span></h2>
-            <p class="description">
-                Pilih.in adalah platform yang didedikasikan untuk memperkenalkan kekayaan budaya dan pariwisata Madura, serta memberikan rekomendasi film berkualitas bagi Anda.
-            </p>
+    <!-- =========================================
+         COPY BAGIAN SECTION INI KE HTML KAMU
+         ========================================= -->
+    <section class="about-us" id="about-us">
+        <div class="heading">
+            <h2>Tim di Balik <span>Pilih.in</span></h2>
+            <p>Kenali 6 orang di balik layar yang mengembangkan project ini. Kunjungi web pribadi kami untuk melihat portofolio yang lebih lengkap.</p>
+        </div>
 
-            <div class="team-grid">
-                <div class="team-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/150" alt="Foto Profil">
-                    </div>
-                    <h3>Restu Dwi Haqiqi</h3>
-                    <p>Informatics Student</p>
-                    <a href="https://github.com/username-kamu" target="_blank" class="visit-btn">
-                        Kunjungi Web <i data-feather="external-link"></i>
-                    </a>
-                </div>
+        <div class="team-container">
+            
+            <!-- Card Anggota 1 -->
+            <div class="team-card">
+                <img src="https://ui-avatars.com/api/?name=Wisnu+Aji+Saka+Putra&background=121815&color=7dffa0&size=300" alt="Restu Dwi Haqiqi">
+                <h3>Wisnu Aji Saka Putra</h3>
+                <span class="role">Main Developer / Teknik Informatika</span>
+                <p class="desc">...................................</p>
+                <a href="https://link-web-restu.com" class="btn-personal" target="_blank">Web Pribadi</a>
+            </div>
 
-                <div class="team-card">
-                    <div class="image-container">
-                        <img src="https://via.placeholder.com/150" alt="Foto Profil">
-                    </div>
-                    <h3>Nama Teman Kelompok</h3>
-                    <p>Web Developer</p>
-                    <a href="#" target="_blank" class="visit-btn">
-                        Kunjungi Web <i data-feather="external-link"></i>
-                    </a>
-                </div>
-                
-                </div>
+            <!-- Card Anggota 2 -->
+            <div class="team-card">
+                <img src="https://ui-avatars.com/api/?name=Rizky+Ahmad+Nasrulloh&background=121815&color=7dffa0&size=300" alt="Anggota Dua">
+                <h3>Rizky Ahmad Nasrulloh</h3>
+                <span class="role">CO Dev</span>
+                <p class="desc">............................</p>
+                <a href="#" class="btn-personal" target="_blank">Web Pribadi</a>
+            </div>
+
+            <!-- Card Anggota 3 -->
+            <div class="team-card">
+                <img src="https://ui-avatars.com/api/?name=Restu+Dwi+Haqiqi&background=121815&color=7dffa0&size=300" alt="Anggota Tiga">
+                <h3>Restu Dwi Haqiqi</h3>
+                <span class="role">CO Dev</span>
+                <p class="desc">..................</p>
+                <a href="#" class="btn-personal" target="_blank">Web Pribadi</a>
+            </div>
+
+            <!-- Card Anggota 4 -->
+            <div class="team-card">
+                <img src="https://ui-avatars.com/api/?name=Rina+Suhita&background=121815&color=7dffa0&size=300" alt="Anggota Lima">
+                <h3>Rina Suhita</h3>
+                <span class="role">CO Dev</span>
+                <p class="desc">Menguji seluruh sistem untuk mencari bug dan memastikan website Pilih.in siap digunakan oleh publik tanpa ada error.</p>
+                <a href="#" class="btn-personal" target="_blank">Web Pribadi</a>
+            </div>
+            
+            <!-- Card Anggota 5 -->
+            <div class="team-card">
+                <img src="https://ui-avatars.com/api/?name=Yolanda+Dhea+Andini&background=121815&color=7dffa0&size=300" alt="Anggota Empat">
+                <h3>Yolanda Dhea Andini</h3>
+                <span class="role">Researcher/Designer Support</span>
+                <p class="desc">.................</p>
+                <a href="#" class="btn-personal" target="_blank">Web Pribadi</a>
+            </div>
+            
+            <!-- Card Anggota 6 -->
+            <div class="team-card">
+                <img src="https://ui-avatars.com/api/?name=Anggota+Enam&background=121815&color=7dffa0&size=300" alt="Anggota Enam">
+                <h3>Anggota Enam</h3>
+                <span class="role">Support</span>
+                <p class="desc">...........................</p>
+                <a href="#" class="btn-personal" target="_blank">Web Pribadi</a>
+            </div>
+
         </div>
     </section>
 
+    <!-- Script untuk memunculkan icon feather -->
+    <script src="https://unpkg.com/feather-icons"></script>
     <script>
         feather.replace();
     </script>

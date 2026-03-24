@@ -1,142 +1,129 @@
-:root {
-    --primary: #ffcc00; /* Sesuaikan dengan warna logo Pilih.in kamu */
-    --bg: #010101;
-}
+.about-us {
+            /* Padding top diperbesar agar tidak tertutup fixed navbar */
+            padding: 10rem 7% 5rem; 
+            background-color: var(--bg-main);
+            min-height: 100vh;
+        }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-}
+        .about-us .heading {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--bg);
-    color: #fff;
-    min-height: 100vh;
-}
+        .about-us .heading h2 {
+            font-size: 3.5rem;
+            color: var(--text-main);
+            margin-bottom: 1rem;
+        }
 
-/* Navbar Style (Sekilas) */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.4rem 7%;
-    background-color: rgba(1, 1, 1, 0.8);
-    border-bottom: 1px solid #333;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-}
+        .about-us .heading h2 span {
+            color: var(--primary);
+        }
 
-.navbar-logo {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #fff;
-    font-style: italic;
-}
+        .about-us .heading p {
+            font-size: 1.4rem;
+            color: var(--text-secondary);
+            max-width: 60rem;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-weight: 300;
+        }
 
-.navbar-logo span {
-    color: var(--primary);
-}
+        .team-container {
+            display: grid;
+            /* Auto-fit akan otomatis menyesuaikan kolom. 
+               25rem menyesuaikan ukuran font responsif dari media queries kamu */
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+            gap: 2.5rem;
+        }
 
-.navbar-nav a {
-    color: #fff;
-    display: inline-block;
-    font-size: 1.2rem;
-    margin: 0 1rem;
-}
+        .team-card {
+            background-color: var(--bg-section);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding: 3rem 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-.navbar-nav a:hover, .navbar-nav a.active {
-    color: var(--primary);
-}
+        .team-card:hover {
+            transform: translateY(-1rem);
+            border-color: var(--primary);
+            /* Memberikan efek glow hijau khas tema website-mu */
+            box-shadow: 0 1rem 2rem rgba(125, 255, 160, 0.05), 
+                        0 0 15px rgba(125, 255, 160, 0.1);
+        }
 
-/* About Section */
-.about {
-    padding: 8rem 7% 2rem;
-    text-align: center;
-}
+        .team-card img {
+            width: 12rem;
+            height: 12rem;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            border: 0.3rem solid var(--border);
+            transition: all 0.3s ease;
+        }
 
-.about h2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
+        .team-card:hover img {
+            border-color: var(--primary);
+        }
 
-.about h2 span {
-    color: var(--primary);
-}
+        .team-card h3 {
+            font-size: 2rem;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
 
-.about .description {
-    max-width: 600px;
-    margin: 0 auto 3rem;
-    font-weight: 300;
-    line-height: 1.6;
-    color: #ccc;
-}
+        .team-card .role {
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-style: italic;
+            font-weight: 300;
+        }
 
-/* Team Grid */
-.team-grid {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
+        .team-card .desc {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
+            flex-grow: 1; /* Membuat tombol rata bawah */
+        }
 
-.team-card {
-    background: #1a1a1a;
-    padding: 2rem;
-    border-radius: 15px;
-    width: 280px;
-    transition: 0.3s;
-    border: 1px solid #333;
-}
+        .team-card .btn-personal {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            color: var(--bg-main);
+            background-color: var(--primary);
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: auto; /* Memastikan posisi tombol konsisten di bawah */
+        }
 
-.team-card:hover {
-    transform: translateY(-10px);
-    border-color: var(--primary);
-}
+        .team-card .btn-personal:hover {
+            background-color: var(--primary-hover);
+            box-shadow: 0 0 1rem var(--primary-hover);
+            color: var(--bg-main);
+        }
 
-.image-container img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 1.5rem;
-    border: 3px solid var(--primary);
-    object-fit: cover;
-}
-
-.team-card h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1.4rem;
-}
-
-.team-card p {
-    color: var(--primary);
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
-    font-weight: 300;
-}
-
-.visit-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background-color: var(--primary);
-    color: var(--bg);
-    padding: 0.6rem 1.2rem;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 0.9rem;
-}
-
-.visit-btn:hover {
-    background-color: #e6b800;
-}
-
-.visit-btn svg {
-    width: 16px;
-    height: 16px;
-}
+        /* =========================================
+           3. MEDIA QUERIES BAWAAN PROJECT KAMU
+           ========================================= */
+        @media (max-width: 1366px) {
+            html { font-size: 75%; }
+        }
+        
+        @media (max-width: 850px) {
+            html { font-size: 62.5%; }
+            .about-us { padding: 12rem 7% 5rem; }
+        }
+        
+        @media (max-width: 450px) {
+            html { font-size: 55%; }
+            .team-container { grid-template-columns: 1fr; } /* 1 kolom di HP */
+        } 
