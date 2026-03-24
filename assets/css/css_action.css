@@ -124,6 +124,20 @@ body::after {
     );
 }
 
+.ben_and_jody::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/ben_&_jody.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .Fire_and_ash::before {
     content: "";
     position: absolute;
@@ -152,6 +166,8 @@ body::after {
     z-index: -1;
 }
 
+
+.ben_and_jody,
 .Fire_and_ash,
 .bomb-jakarta {
     height: 100vh;
@@ -163,6 +179,8 @@ body::after {
     background-position: center;
 }
 
+
+.ben_and_jody .content,
 .Fire_and_ash .content,
 .bomb-jakarta .content {
     display: flex;
@@ -170,6 +188,8 @@ body::after {
     padding: 10rem;
 }
 
+
+.ben_and_jody img,
 .Fire_and_ash img,
 .bomb-jakarta img {
     width: 25%;
@@ -179,6 +199,8 @@ body::after {
     flex: 0 0 255px;
 }
 
+
+.ben_and_jody .content .deskripsi,
 .Fire_and_ash .content .deskripsi,
 .bomb-jakarta .content .deskripsi {
     padding: 1rem;
