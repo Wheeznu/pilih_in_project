@@ -124,7 +124,19 @@ body::after {
     );
 }
 
-
+.top_gun_maverick::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/top_gun_maverick.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
 
 .the_maze_runner::before {
     content: "";
@@ -238,6 +250,8 @@ body::after {
     z-index: -1;
 }
 
+
+.top_gun_maverick,
 .the_maze_runner,
 .sinners,
 .one_battle_after_another,
@@ -255,7 +269,7 @@ body::after {
     background-position: center;
 }
 
-
+.top_gun_maverick .content,
 .the_maze_runner .content,
 .sinners .content,
 .one_battle_after_another .content,
@@ -269,7 +283,7 @@ body::after {
     padding: 10rem;
 }
 
-
+.top_gun_maverick img,
 .the_maze_runner img,
 .sinners img,
 .one_battle_after_another img,
@@ -285,7 +299,7 @@ body::after {
     flex: 0 0 255px;
 }
 
-
+.top_gun_maverick .content .deskripsi,
 .the_maze_runner .content .deskripsi,
 .sinners .content .deskripsi,
 .one_battle_after_another .content .deskripsi,
