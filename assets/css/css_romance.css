@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.film_1_imam_2_makmum::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/1_imam_2_makmum.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .architecture-of-love::before {
     content: "";
     position: absolute;
@@ -149,6 +163,7 @@ body::after {
     z-index: -1;
 }
 
+.film_1_imam_2_makmum,
 .dilan-1990,
 .architecture-of-love {
     height: 100vh;
@@ -159,7 +174,7 @@ body::after {
     background-size: cover;
     background-position: center;
 }
-
+.film_1_imam_2_makmum .content,
 .dilan-1990 .content,
 .architecture-of-love .content {
     display: flex;
@@ -167,6 +182,7 @@ body::after {
     padding: 10rem;
 }
 
+.film_1_imam_2_makmum img,
 .dilan-1990 img,
 .architecture-of-love img {
     width: 25%;
@@ -176,6 +192,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.film_1_imam_2_makmum .content .deskripsi,
 .dilan-1990 .content .deskripsi,
 .architecture-of-love .content .deskripsi {
     padding: 1rem;
