@@ -124,6 +124,21 @@ body::after {
     );
 }
 
+
+.hunter_killer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/hunter_killer.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .ben_and_jody::before {
     content: "";
     position: absolute;
@@ -166,7 +181,7 @@ body::after {
     z-index: -1;
 }
 
-
+.hunter_killer,
 .ben_and_jody,
 .Fire_and_ash,
 .bomb-jakarta {
@@ -179,7 +194,7 @@ body::after {
     background-position: center;
 }
 
-
+.hunter_killer .content,
 .ben_and_jody .content,
 .Fire_and_ash .content,
 .bomb-jakarta .content {
@@ -188,7 +203,7 @@ body::after {
     padding: 10rem;
 }
 
-
+.hunter_killer img,
 .ben_and_jody img,
 .Fire_and_ash img,
 .bomb-jakarta img {
@@ -199,7 +214,7 @@ body::after {
     flex: 0 0 255px;
 }
 
-
+.hunter_killer .content .deskripsi,
 .ben_and_jody .content .deskripsi,
 .Fire_and_ash .content .deskripsi,
 .bomb-jakarta .content .deskripsi {
