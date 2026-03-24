@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.gara_gara_warisan::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/gara_gara_warisan.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .free_guy::before {
     content: "";
     position: absolute;
@@ -163,6 +177,8 @@ body::after {
     z-index: -1;
 }
 
+
+.gara_gara_warisan,
 .free_guy,
 .cek_toko_sebelah,
 .agak_laen {
@@ -175,6 +191,8 @@ body::after {
     background-position: center;
 }
 
+
+.gara_gara_warisan .content,
 .free_guy .content,
 .cek_toko_sebelah .content,
 .agak_laen .content {
@@ -184,6 +202,8 @@ body::after {
 }
 
 
+
+.gara_gara_warisan img,
 .free_guy img,
 .cek_toko_sebelah img,
 .agak_laen img {
@@ -194,6 +214,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.gara_gara_warisan .content .deskripsi,
 .free_guy .content .deskripsi,
 .cek_toko_sebelah .content .deskripsi,
 .agak_laen .content .deskripsi {
