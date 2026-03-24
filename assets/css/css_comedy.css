@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.yowis_ben::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/yowis_ben.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .susah_sinyal::before {
     content: "";
     position: absolute;
@@ -247,6 +261,8 @@ body::after {
     z-index: -1;
 }
 
+
+.yowis_ben,
 .susah_sinyal,
 .orang-kaya-baru,
 .imperfect,
@@ -265,6 +281,7 @@ body::after {
     background-position: center;
 }
 
+.yowis_ben .content,
 .susah_sinyal .content,
 .orang-kaya-baru .content,
 .imperfect .content,
@@ -279,7 +296,7 @@ body::after {
     padding: 10rem;
 }
 
-
+.yowis_ben img,
 .susah_sinyal img,
 .orang-kaya-baru img,
 .imperfect img,
@@ -296,6 +313,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.yowis_ben .content .deskripsi,
 .orang-kaya-baru .content .deskripsi,
 .susah_sinyal .content .deskripsi,
 .imperfect .content .deskripsi,
