@@ -124,6 +124,20 @@ body::after {
     );
 }
 
+.Fire_and_ash::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/avatar_fire_and_ash.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .bomb-jakarta::before {
     content: "";
     position: absolute;
@@ -138,6 +152,7 @@ body::after {
     z-index: -1;
 }
 
+.Fire_and_ash,
 .bomb-jakarta {
     height: 100vh;
     background-color: rgba(11, 15, 12, 0.5);
@@ -148,13 +163,14 @@ body::after {
     background-position: center;
 }
 
-
+.Fire_and_ash .content,
 .bomb-jakarta .content {
     display: flex;
     justify-content: space-between;
     padding: 10rem;
 }
 
+.Fire_and_ash img,
 .bomb-jakarta img {
     width: 25%;
     height: 25%;
@@ -163,6 +179,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.Fire_and_ash .content .deskripsi,
 .bomb-jakarta .content .deskripsi {
     padding: 1rem;
 }
