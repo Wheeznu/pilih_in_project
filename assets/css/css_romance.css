@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.architecture-of-love::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/the_architecture_of_love.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .tak_ingin_usai_di_sini::before {
     content: "";
     position: absolute;
@@ -261,6 +275,7 @@ body::after {
     z-index: -1;
 }
 
+.architecture-of-love,
 .tak_ingin_usai_di_sini,
 .sore_istri_dari_masa_depan,
 .sampai_nanti_hanna,
@@ -280,6 +295,7 @@ body::after {
     background-position: center;
 }
 
+.architecture-of-love .content,
 .tak_ingin_usai_di_sini .content,
 .sore_istri_dari_masa_depan .content,
 .sampai_nanti_hanna .content,
@@ -295,6 +311,7 @@ body::after {
     padding: 10rem;
 }
 
+.architecture-of-love img,
 .tak_ingin_usai_di_sini img,
 .sore_istri_dari_masa_depan img,
 .sampai_nanti_hanna img,
@@ -312,6 +329,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.architecture-of-love .content .deskripsi,
 .tak_ingin_usai_di_sini .content .deskripsi,
 .sore_istri_dari_masa_depan .content .deskripsi,
 .sampai_nanti_hanna .content .deskripsi,
