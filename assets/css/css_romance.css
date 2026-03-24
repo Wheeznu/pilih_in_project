@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.ada_apa_dengan_cinta::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/ada_apa_dengan_cinta.jpeg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .la_la_land::before {
     content: "";
     position: absolute;
@@ -177,6 +191,7 @@ body::after {
     z-index: -1;
 }
 
+.ada_apa_dengan_cinta,
 .la_la_land,
 .film_1_imam_2_makmum,
 .dilan-1990,
@@ -190,6 +205,7 @@ body::after {
     background-position: center;
 }
 
+.ada_apa_dengan_cinta .content,
 .la_la_land .content,
 .film_1_imam_2_makmum .content,
 .dilan-1990 .content,
@@ -199,6 +215,7 @@ body::after {
     padding: 10rem;
 }
 
+.ada_apa_dengan_cinta img,
 .la_la_land img,
 .film_1_imam_2_makmum img,
 .dilan-1990 img,
@@ -210,6 +227,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.ada_apa_dengan_cinta .content .deskripsi,
 .la_la_land .content .deskripsi,
 .film_1_imam_2_makmum .content .deskripsi,
 .dilan-1990 .content .deskripsi,
