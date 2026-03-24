@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.la_la_land::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/la_la_land.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .film_1_imam_2_makmum::before {
     content: "";
     position: absolute;
@@ -163,6 +177,7 @@ body::after {
     z-index: -1;
 }
 
+.la_la_land,
 .film_1_imam_2_makmum,
 .dilan-1990,
 .architecture-of-love {
@@ -174,6 +189,8 @@ body::after {
     background-size: cover;
     background-position: center;
 }
+
+.la_la_land .content,
 .film_1_imam_2_makmum .content,
 .dilan-1990 .content,
 .architecture-of-love .content {
@@ -182,6 +199,7 @@ body::after {
     padding: 10rem;
 }
 
+.la_la_land img,
 .film_1_imam_2_makmum img,
 .dilan-1990 img,
 .architecture-of-love img {
@@ -192,6 +210,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.la_la_land .content .deskripsi,
 .film_1_imam_2_makmum .content .deskripsi,
 .dilan-1990 .content .deskripsi,
 .architecture-of-love .content .deskripsi {
