@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.susah_sinyal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/susah_sinyal.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .orang-kaya-baru::before {
     content: "";
     position: absolute;
@@ -233,7 +247,7 @@ body::after {
     z-index: -1;
 }
 
-
+.susah_sinyal,
 .orang-kaya-baru,
 .imperfect,
 .Hancock,
@@ -251,7 +265,7 @@ body::after {
     background-position: center;
 }
 
-
+.susah_sinyal .content,
 .orang-kaya-baru .content,
 .imperfect .content,
 .Hancock .content,
@@ -265,6 +279,8 @@ body::after {
     padding: 10rem;
 }
 
+
+.susah_sinyal img,
 .orang-kaya-baru img,
 .imperfect img,
 .Hancock img,
@@ -281,6 +297,7 @@ body::after {
 }
 
 .orang-kaya-baru .content .deskripsi,
+.susah_sinyal .content .deskripsi,
 .imperfect .content .deskripsi,
 .Hancock .content .deskripsi,
 .ghost_writer .content .deskripsi,
