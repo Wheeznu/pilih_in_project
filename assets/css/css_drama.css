@@ -105,6 +105,9 @@ body {
 }
 
 /* main */
+body {
+    background-color: var(--bg-main);
+}
 
 body::after {
     content: "";
@@ -121,36 +124,156 @@ body::after {
     );
 }
 
-.pengabdi_setan_2::before {
+.satu_kakak_tujuh_keponakan::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 90%;
-    background-image: url(../img/1_imam_2_makmum.jpg);
+    background-image: url(../img/1_kakak_7_ponakan.jpg);
     background-size: cover;
     background-position-y: -18rem;
     filter: blur(8px);
     z-index: -1;
 }
 
-.pengabdi_setan_2::before {
+.lima_cm::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 90%;
-    background-image: url(../img/pengabdi_setan_2.jpg);
+    background-image: url(../img/5_cm_2012.jpg);
     background-size: cover;
     background-position-y: -18rem;
     filter: blur(8px);
     z-index: -1;
 }
 
-.pengabdi_setan_2,
-.architecture-of-love {
+.a_man_called_otto::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/a_man_called_otto.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.adolescence::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/adolescence_series.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.bebas::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/bebas.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.black_swan::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/black_swan.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.breaking_bad::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/breaking_bad_series.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.jumbo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/jumbo.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.ngeri_ngeri_sedap::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/ngeri_ngeri_sedap.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.wayne_series::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/wayne_series.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.satu_kakak_tujuh_keponakan,
+.lima_cm,
+.a_man_called_otto,
+.adolescence,
+.bebas,
+.black_swan,
+.breaking_bad,
+.jumbo,
+.ngeri_ngeri_sedap,
+.wayne_series {
     height: 100vh;
     background-color: rgba(11, 15, 12, 0.5);
     display: flex;
@@ -160,15 +283,31 @@ body::after {
     background-position: center;
 }
 
-.pengabdi_setan_2 .content,
-.architecture-of-love .content {
+.satu_kakak_tujuh_keponakan .content,
+.lima_cm .content,
+.a_man_called_otto .content,
+.adolescence .content,
+.bebas .content,
+.black_swan .content,
+.breaking_bad .content,
+.jumbo .content,
+.ngeri_ngeri_sedap .content,
+.wayne_series .content {
     display: flex;
     justify-content: space-between;
     padding: 10rem;
 }
 
-.pengabdi_setan_2 img,
-.architecture-of-love img {
+.satu_kakak_tujuh_keponakan img,
+.lima_cm img,
+.a_man_called_otto img,
+.adolescence img,
+.bebas img,
+.black_swan img,
+.breaking_bad img,
+.jumbo img,
+.ngeri_ngeri_sedap img,
+.wayne_series img {
     width: 25%;
     height: 25%;
     border: 0.2rem solid var(--bg-main);
@@ -176,8 +315,16 @@ body::after {
     flex: 0 0 255px;
 }
 
-.pengabdi_setan_2 .content .deskripsi,
-.architecture-of-love .content .deskripsi {
+.satu_kakak_tujuh_keponakan .content .deskripsi,
+.lima_cm .content .deskripsi,
+.a_man_called_otto .content .deskripsi,
+.adolescence .content .deskripsi,
+.bebas .content .deskripsi,
+.black_swan .content .deskripsi,
+.breaking_bad .content .deskripsi,
+.jumbo .content .deskripsi,
+.ngeri_ngeri_sedap .content .deskripsi,
+.wayne_series .content .deskripsi {
     padding: 1rem;
 }
 
