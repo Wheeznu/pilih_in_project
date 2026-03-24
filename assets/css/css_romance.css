@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.sore_istri_dari_masa_depan::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/Sore_\ Istri\ dari\ masa\ depan.jpg);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .sampai_nanti_hanna::before {
     content: "";
     position: absolute;
@@ -233,6 +247,8 @@ body::after {
     z-index: -1;
 }
 
+
+.sore_istri_dari_masa_depan,
 .sampai_nanti_hanna,
 .Kupu_Kupu_Kertas,
 .Komang,
@@ -240,7 +256,6 @@ body::after {
 .ada_apa_dengan_cinta,
 .la_la_land,
 .film_1_imam_2_makmum,
-.dilan-1990,
 .architecture-of-love {
     height: 100vh;
     background-color: rgba(11, 15, 12, 0.5);
@@ -251,6 +266,8 @@ body::after {
     background-position: center;
 }
 
+
+.sore_istri_dari_masa_depan .content,
 .sampai_nanti_hanna .content,
 .Kupu_Kupu_Kertas .content,
 .Komang .content,
@@ -258,13 +275,14 @@ body::after {
 .ada_apa_dengan_cinta .content,
 .la_la_land .content,
 .film_1_imam_2_makmum .content,
-.dilan-1990 .content,
 .architecture-of-love .content {
     display: flex;
     justify-content: space-between;
     padding: 10rem;
 }
 
+
+.sore_istri_dari_masa_depan img,
 .sampai_nanti_hanna img,
 .Kupu_Kupu_Kertas img,
 .Komang img,
@@ -272,7 +290,6 @@ body::after {
 .ada_apa_dengan_cinta img,
 .la_la_land img,
 .film_1_imam_2_makmum img,
-.dilan-1990 img,
 .architecture-of-love img {
     width: 25%;
     height: 25%;
@@ -281,6 +298,8 @@ body::after {
     flex: 0 0 255px;
 }
 
+
+.sore_istri_dari_masa_depan .content .deskripsi,
 .sampai_nanti_hanna .content .deskripsi,
 .Kupu_Kupu_Kertas .content .deskripsi,
 .Komang .content .deskripsi,
