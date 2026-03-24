@@ -124,6 +124,20 @@ body::after {
     );
 }
 
+.war_machine::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/war_machine.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .top_gun_maverick::before {
     content: "";
     position: absolute;
@@ -250,7 +264,7 @@ body::after {
     z-index: -1;
 }
 
-
+.war_machine,
 .top_gun_maverick,
 .the_maze_runner,
 .sinners,
@@ -269,6 +283,7 @@ body::after {
     background-position: center;
 }
 
+.war_machine .content,
 .top_gun_maverick .content,
 .the_maze_runner .content,
 .sinners .content,
@@ -283,6 +298,7 @@ body::after {
     padding: 10rem;
 }
 
+.war_machine img,
 .top_gun_maverick img,
 .the_maze_runner img,
 .sinners img,
@@ -299,6 +315,7 @@ body::after {
     flex: 0 0 255px;
 }
 
+.war_machine .content .deskripsi,
 .top_gun_maverick .content .deskripsi,
 .the_maze_runner .content .deskripsi,
 .sinners .content .deskripsi,
