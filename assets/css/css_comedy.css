@@ -121,6 +121,20 @@ body::after {
     );
 }
 
+.free_guy::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/free_guy.png);
+    background-size: cover;
+    background-position-y: -18rem;
+    filter: blur(8px);
+    z-index: -1;
+}
+
 .cek_toko_sebelah::before {
     content: "";
     position: absolute;
@@ -149,6 +163,7 @@ body::after {
     z-index: -1;
 }
 
+.free_guy,
 .cek_toko_sebelah,
 .agak_laen {
     height: 100vh;
@@ -160,7 +175,7 @@ body::after {
     background-position: center;
 }
 
-
+.free_guy .content,
 .cek_toko_sebelah .content,
 .agak_laen .content {
     display: flex;
@@ -169,6 +184,7 @@ body::after {
 }
 
 
+.free_guy img,
 .cek_toko_sebelah img,
 .agak_laen img {
     width: 25%;
@@ -178,7 +194,7 @@ body::after {
     flex: 0 0 255px;
 }
 
-
+.free_guy .content .deskripsi,
 .cek_toko_sebelah .content .deskripsi,
 .agak_laen .content .deskripsi {
     padding: 1rem;
