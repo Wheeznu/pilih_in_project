@@ -31,8 +31,6 @@
 
         .team-container {
             display: grid;
-            /* Auto-fit akan otomatis menyesuaikan kolom. 
-               25rem menyesuaikan ukuran font responsif dari media queries kamu */
             grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
             gap: 2.5rem;
         }
@@ -110,10 +108,8 @@
             box-shadow: 0 0 1rem var(--primary-hover);
             color: var(--bg-main);
         }
-
-        /* =========================================
-           3. MEDIA QUERIES BAWAAN PROJECT KAMU
-           ========================================= */
+        
+        /* Perubahan Media (HP/Tablet) */
         @media (max-width: 1366px) {
             html { font-size: 75%; }
         }
